@@ -1,0 +1,17 @@
+:root
+{
+    --color-border: #eee;
+    --color-border-dark: #bbb;
+
+    --color-button: #1f8bff;
+    --color-button-border: var(--color-button);
+    --color-button-hover: #25a0ff;
+
+    --color-hint: #eee;
+    --color-hint-border: var(--color-border-dark);
+
+    --color-input: #fff;
+    --color-input-border: var(--color-border-dark);
+
+    --color-text-white: #fff;
+}

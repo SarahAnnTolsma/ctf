@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Capture-The-Flag</title>
+
+        <link rel="stylesheet" href="styles/core.css" />
+
+        <script type="text/javascript" src="scripts/8e95ceff61f20a4f4a0c4e36e9d67c196df71324.js"></script>
+
+        <script type="text/javascript" src="scripts/redirect.js"></script>
+        <script type="text/javascript" src="scripts/timer.js"></script>
+    </head>
+
+    <body>
+        <h1>#2 Now we're cooking</h1>
+
+        <div class="content">
+
+            Excellent, you managed to bypass the first layer of security -- something we had previously only dreamed 
+            of doing. We can't believe this system is making us jump through all these hoops just to get to our client's
+            data. Security <i>schmecurity</i>, am I right?
+            
+            <br /><br />
+
+            Once we entered the password you gave us we were prompted for a serial key for something called "AcmeSuite". 
+            Their trial period must have just expired, which means we can't get the data until we activate it. Could you
+            take a look?
+
+            <br /><br />
+
+            <input id="key" placeholder="Key" type="text" /> <button onclick="activate()">Activate</button>
+
+        </div>
+
+        <div class="timer" title="No pressure">00:00:00</div>
+    </body>
+    
+</html>

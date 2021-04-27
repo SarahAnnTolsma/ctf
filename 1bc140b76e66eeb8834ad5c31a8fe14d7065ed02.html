@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Capture-The-Flag</title>
+
+        <link rel="stylesheet" href="styles/core.css" />
+
+        <script type="text/javascript" src="scripts/redirect.js"></script>
+        <script type="text/javascript" src="scripts/timer.js"></script>
+    </head>
+
+    <body>
+        <h1>#3 Activated</h1>
+
+        <div class="content">
+
+            Who ever said that we're the bad guys? We've done these guys a favor by activating their software! Thanks
+            for that, by the way. Now that the software in their system is activated we can ... 
+            
+            <br /><br />
+            
+            <i>Ah, shoot</i> -- it is asking for a one-time code to be provided using their mobile application.
+
+            <br /><br />
+
+            Luckily we were able to get a hold of their application! <a href="/files/otp.apk">You can download it here</a>. 
+            We weren't able to get it to run on our phones, but maybe you can figure it out. Please let us know once 
+            you have a one-time code and we can continue.
+
+            <br /><br />
+
+            <input id="otp" placeholder="One-time code" type="text" /> <button onclick="verify()">Verify</button>
+
+        </div>
+
+        <div class="timer" title="No pressure">00:00:00</div>
+    </body>
+
+</html>

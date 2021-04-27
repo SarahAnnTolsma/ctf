@@ -1,0 +1,90 @@
+@import url("colors.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 30px;
+    width: 100%;
+}
+
+h1 {
+    border-bottom: 1px solid var(--color-border);
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+div.content {
+    max-width: 700px;
+}
+
+div.hint {
+    background-color: var(--color-hint);
+    border: 1px solid var(--color-hint-border);
+    border-radius: 15px;
+    margin: 30px 0px;
+    padding: 20px;
+}
+
+button {
+    background-color: var(--color-button);
+    border: 1px solid var(--color-button-border);
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: var(--color-text-white);
+    height: 36px;
+    min-width: 100px;
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: var(--color-button-hover);
+}
+
+button.big {
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    height: 50px;
+    min-width: 200px;
+}
+
+input {
+    background-color: var(--color-input);
+    border: 1px solid var(--color-input-border);
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 36px;
+    min-width: 100px;
+    padding: 0px 12px;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+div.timer {
+    font-size: 18px;
+    font-weight: 300;
+    cursor: default;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Capture-The-Flag</title>
+
+        <link rel="stylesheet" href="styles/core.css" />
+    </head>
+
+    <body>
+        <h1>Welcome</h1>
+
+        <div class="content">
+
+            Welcome to the maybe-annual BillGO Capture-The-Flag ("CTF") exercise. We're happy to you chose to participate
+            and test or hone your skills as a reverse engineer. Please keep in mind that the goal of the BillGO CTF is to
+            have fun -- if you ever feel like you're gettting stuck or frustrated (in a bad way), do not hesitate to reach
+            out to #ctf on Slack and ask for help.
+
+            <div class="hint">
+                <h3>What is a CTF?</h3>
+
+                A capture-the-flag exercise is one or more problems that each involve delving into the source code or
+                compiled code of a website, program or mobile application to retrieve a secret value such as a password,
+                token or key -- known as the "flag".
+
+                <h3>What do I need?</h3>
+
+                There are a few tools that will make your life a lot easier as a reverse engineer.
+                
+                <br /><br />
+                
+                First, be sure you are comfortable using the Chrome debugger tools (or the tools of your preferred 
+                browser). It's useful to be able to look at HTML, Javascript and CSS files, along with looking at
+                network traffic (for the most part the Network tab in Chrome will suffice.)
+
+                <br /><br />
+
+                Here are some other useful tools that may come in handy along the way!
+
+                <br /><br />
+
+                <ul>
+                    <li><a href="https://www.telerik.com/download/fiddler">Fiddler</a> is a great HTTP traffic sniffer</li>
+                    <li><a href="https://github.com/skylot/jadx/releases/tag/v1.2.0">JADX</a> let's you take a peek at the code for Android apps</li>
+                    <li><a href="https://www.wireshark.org/">Wireshark</a> takes it a step further, and lets you inspect all network traffic</li>
+                </ul>
+
+                <br />
+
+                Outside of these tools, be sure to keep a scrap pad around (whether digital or a dead tree), and
+                don't be afraid to set breakpoints, write test scripts or program to test a hypothesis!
+
+                <h3>How deep should I dig?</h3>
+
+                All the answers to the exercises should be available by looking at client-side code. If at some point you
+                are considering attempting to find a backdoor into the service you've gone (way) too far. Similarly, you 
+                should never need to find vulnerabilities or utilize any security issues to find a "solution".
+            </div>
+
+            <center>
+                <button class="big" onclick="location.href='c6489a5e72e64e44ef2b0245c2803b70ccc7f0e4.html'">Begin</button>
+            </center>
+            
+        </div>
+
+    </body>
+    
+</html>
